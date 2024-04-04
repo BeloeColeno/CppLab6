@@ -130,6 +130,7 @@ MyString::~MyString()
 
 int MyString::getLength() const
 {
+	//cout << "Вызов метода получения длины" << endl;
 	return length;
 }
 
