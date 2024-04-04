@@ -140,6 +140,7 @@ std::ostream& MyString::show(std::ostream& os) const
 
 std::istream& MyString::write(std::istream& is)
 {
+	//cout << "Вызов переопределенного оператора побайтового сдвига вправо" << endl;
 	if (this->str != nullptr)
 	{
 		delete[] str;
