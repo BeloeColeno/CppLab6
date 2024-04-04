@@ -135,6 +135,7 @@ int MyString::getLength() const
 
 std::ostream& MyString::show(std::ostream& os) const
 {
+	//cout << "Вызов переопределенного оператора побайтового сдвига влево" << endl;
 	return os << (str ? str : "");
 }
 
